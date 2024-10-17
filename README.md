@@ -2,9 +2,9 @@ The models included in the code include five CNN-class networks: UNet, DeepLabV3
 
 How to use:
 
-Change the path of num_class, batch_size, num_epochs, and dataset in config.py.
-Modify the model in getmodel.py.
-Run train.py to train the model.
-Run test.py to extract the test set and verify its accuracy.
+1. Change the path of num_class, batch_size, num_epochs, and dataset in config.py.
+2. Modify the model in getmodel.py.
+3. Run train.py to train the model.
+4. Run test.py to extract the test set and verify its accuracy.
 
 The WHU building dataset and the Massachusetts building dataset used in this code are data enhancement operations, and the author may be contacted if necessary.
